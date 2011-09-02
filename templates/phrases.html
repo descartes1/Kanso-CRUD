@@ -1,0 +1,15 @@
+<h1>Phrases</h1>
+
+
+<p><a href="{baseURL}/">Startpage</a></p>
+<p><a href="{baseURL}/addphrase">Add new phrase</a></p>
+
+{?rows}
+  <ul>
+  {#rows}
+    <li><a href="{baseURL}/{id}">{value}</a></li>
+  {/rows}
+    </ul>
+  {:else}
+  <p>No phrases</p>
+{/rows}

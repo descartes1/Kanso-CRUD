@@ -1,0 +1,4 @@
+This app shows in a minimalistic way how the CRUD operation on CouchDB are made with the Kanso Framework.
+
+You can do a login and a logout, add a new textphrase, change it and delete it.
+No event handling, no error handling, no jquery. Just as simple as possible as a point to start for absolute newbies like me.
