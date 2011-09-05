@@ -35,7 +35,9 @@ Kanso-CRUD (folder)
 
 8. Execute "kanso autopush http://yourdbuser:yourdbpass@localhost:5984/crud".
 
-Make sure, that your user has admin rights. If you don't have a databaseuser yet, you're probably in "Admin Party"-mode. See http://kansojs.org/guides/getting_started.html#users_and_permissions how to fix this.
+Make sure, that your user has admin rights.
+If you don't have a databaseuser yet, you're probably in "Admin Party"-mode. 
+See http://kansojs.org/guides/getting_started.html#users_and_permissions how to fix this.
 
 If there is no database named crud in couchdb, it will be generated for you by kanso.
 
