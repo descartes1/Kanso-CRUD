@@ -33,7 +33,7 @@ Kanso-CRUD (folder)
 
 7. "cd" into the Kanso-CRUD folder, eg. "cd ./Kanso-CRUD"
 
-8. Execute "kanso autopush http://yourdbuser:yourdbpass@localhost:5984/crud".
+8. Execute " kanso autopush http://yourdbuser:yourdbpass@localhost:5984/crud ".
 
 Make sure, that your user has admin rights.
 If you don't have a databaseuser yet, you're probably in "Admin Party"-mode. 
