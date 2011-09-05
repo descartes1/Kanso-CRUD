@@ -17,11 +17,11 @@ No event handling, no error handling, no jquery. Just as simple as possible as a
 
 4. You now should the a folder thats named something like "descartes1-Kanso-CRUD-XYZ123"
 
-5. Rename the folder to CRUD
+5. Rename the folder to Kanso-CRUD
 
 Your folder structure should now looks like
 
-CRUD (folder)
+Kanso-CRUD (folder)
 |
 |-lib (folder)
 |-static (folder)
@@ -31,7 +31,7 @@ CRUD (folder)
 
 6. Open a shell/termial
 
-7. "cd" into the CRUD folder, eg. "cd ./CRUD"
+7. "cd" into the Kanso-CRUD folder, eg. "cd ./Kanso-CRUD"
 
 8. Execute "kanso autopush http://yourdbuser:yourdbpass@localhost:5984/crud".
 
