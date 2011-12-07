@@ -1,8 +1,26 @@
 {
     "name": "crud",
+    "version": "2.0.0",
+    "description": "Minimalist CRUD Kanso app",
     "load": "lib/app",
     "modules": "lib",
-    "templates": "templates",
     "attachments": "static",
-    "base_template": "base.html"
+    "dust": {
+        "templates": "templates"
+    },
+    "duality": {
+        "base_template": "base.html"
+    },
+    "dependencies": {
+        "modules": null,
+        "properties": null,
+        "attachments": null,
+        "settings": null,
+        "duality": null,
+        "dust": null,
+        "duality-dust": null,
+        "couchtypes": null,
+        "db": null,
+        "session": null
+    }
 }
