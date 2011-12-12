@@ -1,4 +1,4 @@
-This app shows in a minimalistic way how the CRUD operation on CouchDB are made with the Kanso Framework.
+This app shows in a minimalistic way how the CRUD operation on CouchDB are made with the Kanso Framework (http://kan.so).
 
 You can do a login and a logout, add a new textphrase, change it and delete it.
 No event handling, no error handling, no jquery. Just as simple as possible as a point to start for absolute newbies like me.
@@ -33,12 +33,15 @@ Kanso-CRUD (folder)
 
 7. "cd" into the Kanso-CRUD folder, eg. "cd ./Kanso-CRUD"
 
-8. Execute " kanso autopush http://yourdbuser:yourdbpass@localhost:5984/crud ".
+8. Execute " kanso fetch "
+
+You now should have a additional folder "packages" in your Kanso-CRUD folder.
+
+9. Execute " kanso push http://yourdbuser:yourdbpass@localhost:5984/crud ".
 
 Make sure, that your user has admin rights.
 If you don't have a databaseuser yet, you're probably in "Admin Party"-mode. 
-See http://kansojs.org/guides/getting_started.html#users_and_permissions how to fix this.
 
 If there is no database named crud in couchdb, it will be generated for you by kanso.
 
-9. Go to http://localhost:5984/crud/_design/crud/_rewrite/ and enjoy.
+10. Go to http://localhost:5984/crud/_design/crud/_rewrite/ and enjoy.
