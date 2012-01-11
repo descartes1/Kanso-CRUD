@@ -33,7 +33,7 @@ Kanso-CRUD (folder)
 
 7. "cd" into the Kanso-CRUD folder, eg. "cd ./Kanso-CRUD"
 
-8. Execute " kanso fetch "
+8. Execute "kanso install"
 
 You now should have a additional folder "packages" in your Kanso-CRUD folder.
 
